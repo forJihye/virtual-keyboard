@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#virtualkey-wrapper {
+  padding: 20px;
+  background: #f2f2f2;
+}
+
+button.space::after {
+  content: 'spacebar';
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+}
